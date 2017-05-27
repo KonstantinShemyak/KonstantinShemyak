@@ -1,0 +1,9 @@
+theme: jekyll-theme-slate
+name: Konstantin Shemyak
+
+gems:
+  - jekyll-sitemap
+  - jekyll-feed
+
+highlighter: rouge
+
