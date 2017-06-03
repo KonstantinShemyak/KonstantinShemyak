@@ -21,7 +21,7 @@ BLOG_AUTHOR = "Konstantin Shemyak"  # (translatable)
 BLOG_TITLE = "Tech Notes"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
-SITE_URL = "http://technotes.shemyak.com/"
+SITE_URL = "https://technotes.shemyak.com/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://example.com/"
@@ -551,11 +551,11 @@ REDIRECTIONS = []
 # to `nikola deploy`.  If no arguments are specified, a preset
 # named `default` will be executed.  You can use as many presets
 # in a `nikola deploy` command as you like.
-# DEPLOY_COMMANDS = {
-#     'default': [
-#         "rsync -rav --delete output/ joe@my.site:/srv/www/site",
-#     ]
-# }
+DEPLOY_COMMANDS = {
+    'default': [
+        "rsync -rav --delete output/ shemyak@bend.dreamhost.com:/home/shemyak/technotes.shemyak.com",
+    ]
+}
 
 # github_deploy configuration
 # For more details, read the manual:
