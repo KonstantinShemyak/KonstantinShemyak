@@ -1,8 +1,15 @@
+---
+layout: default
+title: OpenSSL PKCS7 verification and certificate "Extended Key Usage" extension
+tags: [openssl, x.509, pkcs#7]
+---
+
+
 .. title: OpenSSL PKCS7 verification and certificate "Extended Key Usage" extension
 .. slug: smimesign-extended-key-usage-extension-for-openssl-pkcs7-verification
 .. date: 2016-12-31 22:34:22 UTC+02:00
 .. tags: openssl, x.509, pkcs#7
-.. category: 
+.. category:
 .. link: 
 .. description: 
 .. type: text
