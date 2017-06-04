@@ -2,9 +2,9 @@
 
 <%def name="list_posts(posts)">
   <div id="global-recent-posts">
-    <h2>
+    <h3>
       ${ messages("Recent Posts", lang) }
-    </h2>
+    </h3>
     <ul class="post-list">
     % for post in posts:
       <li>
@@ -18,9 +18,9 @@
 <%def name="list_taxonomy(title, items=None, hierarchy=None, type='tag')">
   % if items or hierarchy:
         <div id="global-${ type }-list">
-          <h2>
+          <h3>
             ${ messages(title, lang) }
-          </h2>
+          </h3>
     % if hierarchy:
       % for text, full_name, path, link, indent_levels, indent_change_before, indent_change_after, children_count, count in hierarchy:
         % for i in range(indent_change_before):
