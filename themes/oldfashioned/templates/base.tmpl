@@ -47,6 +47,16 @@ ${template_hooks['extra_head']()}
             <li>${search_form}</li>
             ${template_hooks['menu']()}
             ${template_hooks['menu_alt']()}
+
+            <%
+              import os
+              try:
+                with open("output/sidebar-en.inc", 'r') as f:
+                  extra_links = f.read()
+              except IOError as e:
+                extra_links = "WD: " + os.getcwd()
+            %>
+            ${extra_links}
             </ul>
             <!--End of sidebar content-->
         </div>
