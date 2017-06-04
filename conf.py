@@ -141,7 +141,11 @@ NAVIGATION_LINKS = {
 }
 
 # Name of the theme to use.
-THEME = "bootstrap3"
+#THEME = "bootstrap3" # <-- OK. The only needed thing is the sidebar.
+THEME = "oldfashioned" # <-- Fine.
+#THEME = "bootstrap4" # <-- said to be "experimental", still no sidebar
+#THEME = "material-theme" <-- maybe OK, a bit too flashy, colors not really balanced
+#THEME = "yesplease" <-- Terrible appearance, no nice `` highlight
 
 # Primary color of your theme. This will be used to customize your theme and
 # auto-generate related colors in POSTS_SECTION_COLORS. Must be a HEX value.
