@@ -1,14 +1,6 @@
 ## -*- coding: utf-8 -*-
 <%namespace name="helper" file="sidebar-helper.tmpl"/>
 
-<div>
-  <h2>
-    About.
-  </h2>
-  <div>
-    This is a blog.
-  </div>
-</div>
 % if global_posts:
   ${ helper.list_posts(global_posts) }
 % endif
