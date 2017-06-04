@@ -136,7 +136,7 @@ tightly controlled environment.
 
 2. The signature must be produced or verified in a system, where available tools do not support the required signature algorithm.
 Examples "why" include compliance with regulations or compatibility with
-legacy systems. There are systems where [testing which elliptic curves are supported by jarsigner](http://securitypad.blogspot.fi/2014/12/support-for-elliptic-curves-by-jarsigner.html)
+legacy systems. There are systems where [testing which elliptic curves are supported by jarsigner](link://slug/support-for-elliptic-curves-by-jarsigner)
 reveals just three curves (which is not much).
 
 
